@@ -28,7 +28,8 @@ public class Backthatclassup {
 //    int wordCount(String fodder) {
 //
 //    }
-     public static int wordSearch(final String searcher, final String find) {
+     public static int wordSearch(String searcher, String find) {
+         searcher.toLowerCase();
          return searcher.split(find).length - 1;
      }
         public static void main(String[] unused) {
